@@ -6,11 +6,11 @@ function getRank(playerVictories, playerDefeats){
 }
 
 // Variável
-let rankPlayer = getRank(150, 125);
+let rankPlayer = getRank(635, 551);
 let nivelHeroi = "" 
 
 //Condicional
-if(getRank >= 10){
+if(rankPlayer <= 10){
     nivelHeroi = "ferro"
 
 } else if (rankPlayer >= 11 && rankPlayer <= 20){
